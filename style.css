@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(165, 165, 130);
+}
+
+h1 {
+  color: #333;
+  margin-left: 17px;
+  
+}
+
+input[type="text"] {
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #378d3c;
+}
+
+#gameContainer {
+  margin-top: 20px;
+}
+
+#wordDisplay {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#incorrectGuesses {
+  font-weight: bold;
+  color: red;
+}
+
+#timer {
+  font-weight: bold;
+  color: blue;
+}

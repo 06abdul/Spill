@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hangman Game</h1>
+  <label for="playerName">Enter your name: </label>
+  <input type="text" id="playerName">
+  <button onclick="startGame()">Start Game</button>
+  
+  <div id="gameContainer" style="display:none;">
+    <p>Guess the word:</p>
+    <p id="wordDisplay"></p>
+    <p>Incorrect guesses: <span id="incorrectGuesses">0</span></p>
+    <p>Time elapsed: <span id="timer">0</span> seconds</p>
+    <input type="text" id="guessInput" maxlength="1">
+    <button onclick="guessLetter()">Guess</button>
+  </div>
+  
+  <script src="java.js"></script>
+</body>
+</html>
